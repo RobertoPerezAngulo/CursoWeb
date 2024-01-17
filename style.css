@@ -62,10 +62,9 @@ img {
     background-color: #333;
     color: #fff;
     padding: 8px 30px;
-    margin-top: 95  px;
     border-radius: 30px;
-    transition: background-color 0.2s, border 0.2s, color 0.2s;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -84,7 +83,7 @@ img {
 }
 
 footer{
-    padding: 20px;
+    padding: 20px; 
     text-align: center;
     color: white;
     background-color: #333;
