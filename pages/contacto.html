@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="icon" type="image/png" href="/static/favicon.png">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="/index.html"><span class="material-symbols-outlined">
+                        arrow_back
+                    </span></a></li>
+        </ul>
+    </header>
+    <main class="container">
+        <form>
+            <div class="row">
+                <div class="col-2">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                </div>
+                <div class="col-2">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+                </div>
+                <div class="col-2">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="col-2">
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" name="telefono" id="telefono" placeholder="Telefono" required>
+                </div>
+                <div class="col-2">
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                </div>
+                <div class="col-3">
+                    <button type="submit" class="btn">Enviar</button>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="container">
+            <div>
+                <div class="col-3">
+                    <span class="material-symbols-outlined">send</span>
+                    <div id="footer-menu">(55) 91235924</div>
+                </div>
+                <div class="col-3">
+                    <span class="material-symbols-outlined">phone</span>
+                    <div id="footer-menu">(56) 36209088</div>
+                </div>
+                <div class="col-3">
+                    <span class="material-symbols-outlined">mail</span>
+                    <div id="footer-menu">rperez_puma@hotmail.com</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
