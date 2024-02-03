@@ -26,8 +26,7 @@ SECRET_KEY = 'django-insecure-*(k!u)ej-=6w7sz8!ks*mwjp5*5uvqodlth4%s&4ljsy_#n+=o
 DEBUG = True
 CORS_ALLOW_ALL_ORIGINS = True
 ALLOWED_HOSTS = ['*']
-
-
+CONTEXT_PATH= "v1/"
 # Application definition
 
 INSTALLED_APPS = [
@@ -38,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'App',
-    'corsheaders'
+    'corsheaders',
+    'module',
 ]
 
 MIDDLEWARE = [
@@ -120,7 +119,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = f'{CONTEXT_PATH}static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
