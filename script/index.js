@@ -5,23 +5,42 @@ document.addEventListener("DOMContentLoaded", (event) => {
       const cardDiv = document.getElementById("card");
       data.forEach((model) => {
         const divcol = document.createElement("div");
-        divcol.className = "col-md-3 col-xs-12 col-sm-6 mt-4 justify-content-center d-flex";
+        divcol.className = "col-12 col-md-4 col-xl-3 col-lg-3 mt-4";
         cardDiv.appendChild(divcol);
 
         const cardCol = document.createElement("div");
         cardCol.className = "card";
-        cardCol.style = "width: 18rem;";
-
-        const pcard = document.createElement("h2");
-        pcard.className = "card-title d-flex justify-content-center";
-        pcard.innerHTML = model.name;
 
         const img = document.createElement("img");
-        img.className = "card-img-top";
+        img.className = "card-img-top align-self-center";
         img.src = model.img;
+        img.style = "width: 200px";
 
+        const cardbody = document.createElement("div");
+        cardbody.className = "card-body";
+
+        const cardtitle = document.createElement("h5");
+        cardtitle.className = "card-title";
+        cardtitle.textContent = model.name;
+
+        const cardtext = document.createElement("p");
+        cardtext.className = "card-text";
+        cardtext.textContent = "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.";
+
+        const cardfooter = document.createElement("div");
+        cardfooter.className = "card-footer";
+
+        const small = document.createElement("small");
+        small.className = "text-muted";
+        small.textContent = "Revisa los pokemon en la pokedex";
+
+        
         cardCol.appendChild(img);
-        cardCol.appendChild(pcard);
+        cardCol.appendChild(cardbody);
+        cardbody.appendChild(cardtitle);
+        cardbody.appendChild(cardtext);
+        cardCol.appendChild(cardfooter);
+        cardfooter.appendChild(small);
         divcol.appendChild(cardCol);
       });
       console.log(cardDiv);
