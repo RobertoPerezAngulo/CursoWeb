@@ -20,24 +20,27 @@ document.addEventListener("DOMContentLoaded", (event) => {
         cardbody.className = "card-body";
 
         const cardtitle = document.createElement("h5");
-        cardtitle.className = "card-title text-white";
+        cardtitle.className = "card-title text-white d-flex justify-content-center";
         cardtitle.textContent = model.name;
 
         const cardtext = document.createElement("p");
-        cardtext.className = "card-text text-white";
+        cardtext.className = "card-text text-white d-flex justify-content-center";
         cardtext.textContent = "This is a wider card with supporting text below as a natural lead-in to additional content.";
 
         const cardfooter = document.createElement("div");
-        cardfooter.className = "card-footer";        
+        cardfooter.className = "card-footer bg-dark border-white d-flex justify-content-center";        
 
         const small = document.createElement("small");
-        small.className = "card-text text-white";
+        small.className = "card-text text-white d-flex justify-content-center";
         small.textContent = "Revisa los pokemon en la pokedex";
 
         const btn = document.createElement("button");
         btn.className = "btn btn-light mx-auto d-block";
         btn.style.marginTop = "auto";
-        btn.textContent = "Ver Detalles";
+        btn.textContent = "Ver más";
+        btn.onclick = function () {
+          showDetail(model.id);
+        };
 
 
         
@@ -53,3 +56,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
     })
     .catch((error) => console.error("Error:", error));
 });
+
+
+
+function showDetail(id) {
+  window.location.href = "https://pokeapi.co/api/v2/pokemon/" +  id;
+}
