@@ -38,9 +38,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         btn.className = "btn btn-light mx-auto d-block";
         btn.style.marginTop = "auto";
         btn.textContent = "Ver Detalles";
-        btn.addEventListener("click", () => {
-          window.location.href = `/pages/detalle_pokemon.html?id=${model.id}&pokemon=${JSON.stringify(model)}`;
-        });
+
 
         
         cardCol.appendChild(img);
@@ -52,7 +50,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
         cardfooter.appendChild(small);
         divcol.appendChild(cardCol);
       });
-      console.log(cardDiv);
     })
     .catch((error) => console.error("Error:", error));
 });
