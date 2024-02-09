@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         cardDiv.appendChild(divcol);
 
         const cardCol = document.createElement("div");
-        cardCol.className = "card";
+        cardCol.className = "card bg-dark border-dark";
 
         const img = document.createElement("img");
         img.className = "card-img-top align-self-center";
@@ -20,25 +20,34 @@ document.addEventListener("DOMContentLoaded", (event) => {
         cardbody.className = "card-body";
 
         const cardtitle = document.createElement("h5");
-        cardtitle.className = "card-title";
+        cardtitle.className = "card-title text-white";
         cardtitle.textContent = model.name;
 
         const cardtext = document.createElement("p");
-        cardtext.className = "card-text";
-        cardtext.textContent = "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.";
+        cardtext.className = "card-text text-white";
+        cardtext.textContent = "This is a wider card with supporting text below as a natural lead-in to additional content.";
 
         const cardfooter = document.createElement("div");
-        cardfooter.className = "card-footer";
+        cardfooter.className = "card-footer";        
 
         const small = document.createElement("small");
-        small.className = "text-muted";
+        small.className = "card-text text-white";
         small.textContent = "Revisa los pokemon en la pokedex";
+
+        const btn = document.createElement("button");
+        btn.className = "btn btn-light mx-auto d-block";
+        btn.style.marginTop = "auto";
+        btn.textContent = "Ver Detalles";
+        btn.addEventListener("click", () => {
+          window.location.href = `/pages/detalle_pokemon.html?id=${model.id}&pokemon=${JSON.stringify(model)}`;
+        });
 
         
         cardCol.appendChild(img);
         cardCol.appendChild(cardbody);
         cardbody.appendChild(cardtitle);
         cardbody.appendChild(cardtext);
+        cardbody.appendChild(btn);
         cardCol.appendChild(cardfooter);
         cardfooter.appendChild(small);
         divcol.appendChild(cardCol);
