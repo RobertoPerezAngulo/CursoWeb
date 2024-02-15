@@ -99,3 +99,11 @@ iframe{
   .whatsapp-link i {
     font-size: 30px;
   }
+
+  nav{
+    height: 90px;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 15px;
+  }

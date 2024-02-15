@@ -62,3 +62,18 @@ document.addEventListener("DOMContentLoaded", (event) => {
 function showDetail(id) {
   window.location.href = "https://pokeapi.co/api/v2/pokemon/" +  id;
 }
+
+
+var imageAnimation = new mojs.Html({
+  el: '#play', // Asegúrate de que este sea el ID de tu imagen en el HTML
+  angle: { 0: 260 },
+  scale: { 0.5: 1.0 },
+  duration: 1000,
+  repeat: 10,
+  isYoyo: true,
+  easing: "quad.in",
+});
+
+document.addEventListener("DOMContentLoaded", (event) => {
+  imageAnimation.play();
+});
