@@ -1,0 +1,19 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "Esta guía detalla las instrucciones necesarias para configurar el entorno de desarrollo de un proyecto Django. Cubre la instalación y uso de `pipenv` para la gestión de dependencias y entornos virtuales, así como la configuración de `firewalld` y `nginx` para mejorar la seguridad y el manejo de solicitudes web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertoPerezAngulo/CursoWeb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobertoPerezAngulo/CursoWeb/issues"
+  },
+  "homepage": "https://github.com/RobertoPerezAngulo/CursoWeb#readme"
+}
