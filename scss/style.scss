@@ -47,11 +47,18 @@ iframe{
             border-radius: 100%
         }
     }
-      h1{
-          margin-top: 40px;
-          font-size: 40px;
-          font-family: 'Righteous'
-      }
+
+    @media( 300 < width < 700){
+        h1{
+            margin-top: 40px;
+            font-size: 20px;
+        }
+
+    }
+    
+    h1{
+        margin-top: 40px;
+    }
 }
 
 .miEstilo{
@@ -96,7 +103,7 @@ iframe{
     50%{
         transform: scale(1.1)
     }
-    100%{
+    80%{
         transform: scale(1)
     }
 }
@@ -109,4 +116,19 @@ nav{
     .nav-link{
         font-size: 15px
     }
+}
+
+.circulo {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background: url('/static/Perfil.jpg');
+    background-size: cover; /* Añadido */
+    background-position: center; /* Añadido */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto;
+    padding: 3%;
 }

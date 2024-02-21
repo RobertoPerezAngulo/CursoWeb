@@ -86,3 +86,11 @@ Instrucciones específicas para la configuración de firewalld y nginx deben ser
 
 ## Contribuidores
 Jose Roberto Perez Angulo
+
+
+## Header
+![Imagen](/static/img/header.png)
+
+## Body
+![Imagen](/static/img/body.png)
+
