@@ -118,17 +118,84 @@ nav{
     }
 }
 
-.circulo {
-    width: 15rem;
-    height: 15rem;
-    border-radius: 50%;
-    background: url('/static/Perfil.jpg');
-    background-size: cover; /* Añadido */
-    background-position: center; /* Añadido */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0px auto;
-    padding: 3%;
+@media  (min-width: 500px) and (max-width: 900px) {
+    .circulo {
+        width: 15rem;
+        height: 15rem;
+        border-radius: 50%;
+        background: url('/static/Perfil.jpg');
+        background-size: cover; 
+        background-position: center; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0px auto;
+        padding: 3%;
+    }
+    
+    @keyframes rebote {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-20px); }
+    }
+    
+    .imagen-rebote {
+        animation: rebote 2s infinite;
+    }
+    
+}
+
+.texto-derecha::after {
+    content: '#¿Quién soy?';
+    font-family: 'Courier New', monospace;
+    animation: escribir 2s steps(40, end) alternate;
+    animation-iteration-count: infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    width: 0;
+}
+
+@keyframes escribir {
+    0% { width: 0; }
+    100% { width: 100%; }
+}
+
+
+.img-absolut, .img-absolut2 {
+    display: none;
+}
+
+@media (max-width: 500px) {
+    @keyframes flotar {
+        0% { transform: translateY(100%); }
+        100% { transform: translateY(0); }
+    }
+    
+    .img-absolut, .img-absolut2 {
+        display: none;
+    }
+    
+    @media (max-width: 500px) {
+        .img-absolut {
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 10%;
+            width: 80%; 
+            object-fit: cover;
+            z-index: -10; 
+            animation: flotar 5s infinite;
+        }
+    }
+}
+
+
+@keyframes rebote {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+.imagen-rebote {
+    animation: rebote 2s infinite;
 }
