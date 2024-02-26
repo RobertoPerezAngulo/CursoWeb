@@ -87,7 +87,7 @@ La página principal es la puerta de entrada a la página. Aquí se encuentran l
 
 ## Página de Contacto
 ¿Quieres ponerte en contacto? Aquí encontrarás un formulario para ingreasar tus datos y enviarnos un mensaje directamente. Ya sea para consultas, colaboraciones, etc., envia tu mensaje y nos pondremos en contacto contigo.
-<img width="1429" alt="Screenshot 2024-02-22 at 18 20 29" src="https://github.com/RobertoPerezAngulo/CursoWeb/assets/88848356/b4e35639-f8e0-48c9-94ff-a0084001fe46">
+<img width="1429" alt="Screenshot 2024-02-22 at 18 20 29" src="/static/body.png">
 
 
 ## Página de quien soy
