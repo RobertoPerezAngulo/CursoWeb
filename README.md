@@ -80,17 +80,28 @@ pipenv install django-environ
 ```bash
 python manage.py startapp <app_name>
 ```
+## Página Principal
+La página principal es la puerta de entrada a la página. Aquí se encuentran las tarjetas donde se muetsra el contenido de cada pokemon. Cada tarjeta proporciona una vista previa de información clave.
+<img width="1434" alt="Screenshot 2024-02-22 at 18 20 15" src="https://github.com/RobertoPerezAngulo/CursoWeb/assets/88848356/2224fa89-38f9-484f-848e-94b3de739f97">
+
+
+## Página de Contacto
+¿Quieres ponerte en contacto? Aquí encontrarás un formulario para ingreasar tus datos y enviarnos un mensaje directamente. Ya sea para consultas, colaboraciones, etc., envia tu mensaje y nos pondremos en contacto contigo.
+<img width="1429" alt="Screenshot 2024-02-22 at 18 20 29" src="https://github.com/RobertoPerezAngulo/CursoWeb/assets/88848356/b4e35639-f8e0-48c9-94ff-a0084001fe46">
+
+
+## Página de Comentarios
+Si tienes alguna sugerencia, idea o comentarios, háznoslo saber en este apartado
+<img width="1440" alt="Screenshot 2024-02-22 at 18 20 49" src="https://github.com/RobertoPerezAngulo/CursoWeb/assets/88848356/71186e10-6ecb-40ac-b408-c18f81e8ed76">
+
+
+## Pagina del Creador
+¿Sabes quién está detrás de todo esto? Aquí encontrarás una breve descripcion de quien es el creador de este proyecto. Si quieres saber un poco más acerca de su trayectoria, experiencia y hablididaes puedes descargar su CV para conocer un poco más.
+<img width="1439" alt="Screenshot 2024-02-22 at 18 21 10" src="https://github.com/RobertoPerezAngulo/CursoWeb/assets/88848356/413d5bb0-f5d3-47c2-b759-3a4cde22438d">
+
 
 ## Seguridad y Manejo de Solicitudes Web
 Instrucciones específicas para la configuración de firewalld y nginx deben ser detalladas aquí, enfocándose en cómo estos pasos contribuyen a la seguridad y eficiencia en el manejo de las solicitudes web.
 
 ## Contribuidores
 Jose Roberto Perez Angulo
-
-
-## Header
-![Imagen](/static/img/header.png)
-
-## Body
-![Imagen](/static/img/body.png)
-
