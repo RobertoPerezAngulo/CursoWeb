@@ -83,6 +83,7 @@ python manage.py startapp <app_name>
 ## Página Principal
 La página principal es la puerta de entrada a la página. Aquí se encuentran las tarjetas donde se muetsra el contenido de cada pokemon. Cada tarjeta proporciona una vista previa de información clave.
 <img width="1434" alt="Screenshot 2024-02-22 at 18 20 15" src="https://github.com/RobertoPerezAngulo/CursoWeb/assets/88848356/2224fa89-38f9-484f-848e-94b3de739f97">
+<img width="1434" alt="Screenshot 2024-02-22 at 18 20 15" src="/static/pokemons.png">
 
 
 ## Página de Contacto
