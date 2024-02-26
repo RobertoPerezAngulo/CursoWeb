@@ -1,6 +1,10 @@
 @charset "UTF-8";
 footer {
-  height: 200px;
+  height: 100px;
+}
+
+main {
+  min-height: 80vh;
 }
 
 .circle {
@@ -22,6 +26,30 @@ iframe {
 
 .navbar-nav .nav-link {
   font-size: 12px;
+}
+
+.main-img {
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+.main-img .contenido-banner {
+  padding: 20px;
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+  border-radius: 40px;
+}
+.main-img .contenido-banner img {
+  margin-top: 40px;
+  border: 10px solid #f7a63c;
+  display: block;
+  width: 80%;
+  margin: auto;
+  border-radius: 100%;
 }
 
 .inicio {
