@@ -90,14 +90,14 @@ La página principal es la puerta de entrada a la página. Aquí se encuentran l
 <img width="1429" alt="Screenshot 2024-02-22 at 18 20 29" src="https://github.com/RobertoPerezAngulo/CursoWeb/assets/88848356/b4e35639-f8e0-48c9-94ff-a0084001fe46">
 
 
-## Página de Comentarios
-Si tienes alguna sugerencia, idea o comentarios, háznoslo saber en este apartado
-<img width="1440" alt="Screenshot 2024-02-22 at 18 20 49" src="https://github.com/RobertoPerezAngulo/CursoWeb/assets/88848356/71186e10-6ecb-40ac-b408-c18f81e8ed76">
+## Página de quien soy
+Como desarrollador esta es una breve platica sobre mi y bla bla bla.... Xd
+<img width="1440" alt="Screenshot 2024-02-22 at 18 20 49" src="/static/who.png">
 
 
 ## Pagina del Creador
 ¿Sabes quién está detrás de todo esto? Aquí encontrarás una breve descripcion de quien es el creador de este proyecto. Si quieres saber un poco más acerca de su trayectoria, experiencia y hablididaes puedes descargar su CV para conocer un poco más.
-<img width="1439" alt="Screenshot 2024-02-22 at 18 21 10" src="https://github.com/RobertoPerezAngulo/CursoWeb/assets/88848356/413d5bb0-f5d3-47c2-b759-3a4cde22438d">
+<img width="1439" alt="Screenshot 2024-02-22 at 18 21 10" src="/static/body.png">
 
 
 ## Seguridad y Manejo de Solicitudes Web
