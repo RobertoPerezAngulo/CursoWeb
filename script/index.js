@@ -1,4 +1,7 @@
 document.addEventListener("DOMContentLoaded", (event) => {
+  // bloquear el scroll de la pagina
+  document.body.style.overflow = "hidden";
+  imageAnimation.play();
   fetch("http://127.0.0.1:8001/v1/pokemons/")
     .then((response) => response.json())
     .then((data) => {
@@ -10,6 +13,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
         const cardCol = document.createElement("div");
         cardCol.className = "card bg-dark border-dark";
+        cardCol.style = "height: 400px";
 
         const img = document.createElement("img");
         img.className = "card-img-top align-self-center";
@@ -24,8 +28,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
         cardtitle.textContent = model.name;
 
         const cardtext = document.createElement("p");
-        cardtext.className = "card-text text-white d-flex justify-content-center";
-        cardtext.textContent = "This is a wider card with supporting text below as a natural lead-in to additional content.";
+        cardtext.className = "card-text text-white d-flex justify-content-center text-center";
+        cardtext.textContent = model.desc;
 
         const cardfooter = document.createElement("div");
         cardfooter.className = "card-footer bg-dark border-white d-flex justify-content-center";        
@@ -54,7 +58,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
         divcol.appendChild(cardCol);
       });
     })
-    .catch((error) => console.error("Error:", error));
+    .catch((error) => console.error("Error:", error)).finally(() => {
+      document.querySelector("#loading").style.display = 'none';
+      // desbloquear el scroll de la 
+      document.body.style.overflow = "auto";
+    });
 });
 
 
@@ -63,17 +71,12 @@ function showDetail(id) {
   window.location.href = "https://pokeapi.co/api/v2/pokemon/" +  id;
 }
 
-
 var imageAnimation = new mojs.Html({
-  el: '#play', // Asegúrate de que este sea el ID de tu imagen en el HTML
+  el: '#play',
   angle: { 0: 260 },
   scale: { 0.5: 1.0 },
   duration: 1000,
   repeat: 10,
   isYoyo: true,
   easing: "quad.in",
-});
-
-document.addEventListener("DOMContentLoaded", (event) => {
-  imageAnimation.play();
 });

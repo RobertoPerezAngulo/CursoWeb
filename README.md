@@ -57,26 +57,12 @@ pipenv --venv
 Instalación de Django
 Instala Django dentro del entorno virtual con:
 
+## Correr el server 
+- Este comando servira para correr el API python manage.py runserver 127.0.0.1:8001
 ```bash
-pipenv install django
-```
+pipenv run dev
+``` 
 
-## Creación de un Nuevo Proyecto Django
-Para crear un nuevo proyecto Django, utiliza el siguiente comando, reemplazando <project_name> con el nombre de tu proyecto:
-
-```bash
-pipenv run django-admin startproject <project_name>
-```
-
-## Configuraciones Adicionales
-Configuración de Variables de Entorno
-Para gestionar las variables de entorno de forma segura, instala django-environ:
-
-``` bash
-pipenv install django-environ
-```
-
-## Para crear una nueva aplicación dentro de tu proyecto Django:
 ```bash
 python manage.py startapp <app_name>
 ```
