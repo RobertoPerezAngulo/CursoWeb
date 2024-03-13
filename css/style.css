@@ -36,6 +36,7 @@ iframe {
   align-items: center;
   text-transform: uppercase;
 }
+
 .main-img .contenido-banner {
   padding: 20px;
   max-width: 350px;
@@ -43,6 +44,7 @@ iframe {
   text-align: center;
   border-radius: 40px;
 }
+
 .main-img .contenido-banner img {
   margin-top: 40px;
   border: 10px solid #f7a63c;
@@ -61,6 +63,7 @@ iframe {
   align-items: center;
   text-transform: uppercase;
 }
+
 .inicio .contenido-banner {
   padding: 20px;
   max-width: 350px;
@@ -68,6 +71,7 @@ iframe {
   text-align: center;
   border-radius: 40px;
 }
+
 .inicio .contenido-banner img {
   margin-top: 40px;
   border: 10px solid #f7a63c;
@@ -76,6 +80,7 @@ iframe {
   margin: auto;
   border-radius: 100%;
 }
+
 @media (300 < width < 700) {
   .inicio h1 {
     margin-top: 40px;
@@ -106,13 +111,16 @@ iframe {
   justify-content: center;
   animation: pulse 2s infinite;
 }
+
 .whatsapp-button:hover {
   cursor: pointer;
 }
+
 .whatsapp-button .whatsapp-link {
   color: #fff i;
   color-font-size: 30px;
 }
+
 .whatsapp-button a {
   color: #fff;
   font-size: 25px;
@@ -321,5 +329,7 @@ nav {
   justify-content: center;
   align-items: center;
 }
+
+
 
 /*# sourceMappingURL=style.css.map */
