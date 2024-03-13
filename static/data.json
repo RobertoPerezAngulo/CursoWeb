@@ -1,0 +1,122 @@
+[
+    {
+        "id": 2,
+        "name": "ivysaur",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+        "desc": "Hace que llueva cuando entra en\ncombate."
+    },
+    {
+        "id": 3,
+        "name": "venusaur",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+        "desc": "Aumenta la Velocidad\ngradualmente."
+    },
+    {
+        "id": 4,
+        "name": "charmander",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+        "desc": "Bloquea golpes críticos."
+    },
+    {
+        "id": 5,
+        "name": "charmeleon",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+        "desc": "Evita que el rival pueda debilitarle\nde un solo golpe."
+    },
+    {
+        "id": 6,
+        "name": "charizard",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+        "desc": "Evita que un Pokémon pueda\nautodestruirse."
+    },
+    {
+        "id": 7,
+        "name": "squirtle",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+        "desc": "Evita ser paralizado."
+    },
+    {
+        "id": 8,
+        "name": "wartortle",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+        "desc": "Aumenta la Evasión en las\ntormentas de arena."
+    },
+    {
+        "id": 9,
+        "name": "blastoise",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+        "desc": "Puede paralizar al mínimo\ncontacto."
+    },
+    {
+        "id": 10,
+        "name": "caterpie",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+        "desc": "Recupera PS al recibir ataques de\ntipo Eléctrico."
+    },
+    {
+        "id": 11,
+        "name": "metapod",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+        "desc": "Recupera PS al recibir ataques de\ntipo Agua."
+    },
+    {
+        "id": 12,
+        "name": "butterfree",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+        "desc": "Evita que el Pokémon sea\natraído o provocado."
+    },
+    {
+        "id": 13,
+        "name": "weedle",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+        "desc": "Anula los efectos del tiempo\natmosférico."
+    },
+    {
+        "id": 14,
+        "name": "kakuna",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+        "desc": "Aumenta la Precisión del\nPokémon."
+    },
+    {
+        "id": 15,
+        "name": "beedrill",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+        "desc": "Evita el quedarse dormido."
+    },
+    {
+        "id": 16,
+        "name": "pidgey",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+        "desc": "Adopta el tipo del último\nmovimiento del que sea blanco."
+    },
+    {
+        "id": 17,
+        "name": "pidgeotto",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+        "desc": "Evita el envenenamiento."
+    },
+    {
+        "id": 18,
+        "name": "pidgeot",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+        "desc": "Potencia movimientos de tipo\nFuego si ha sufrido antes alguno."
+    },
+    {
+        "id": 19,
+        "name": "rattata",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+        "desc": "Anula el efecto secundario del\nataque sufrido."
+    },
+    {
+        "id": 20,
+        "name": "raticate",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
+        "desc": "Evita ser confundido."
+    },
+    {
+        "id": 21,
+        "name": "spearow",
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+        "desc": "Anula movimientos y objetos que\nfuerzan el relevo."
+    }
+]

@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   // bloquear el scroll de la pagina
   document.body.style.overflow = "hidden";
   imageAnimation.play();
-  fetch("http://127.0.0.1:8001/v1/pokemons/")
+  fetch("./static/data.json")
     .then((response) => response.json())
     .then((data) => {
       const cardDiv = document.getElementById("card");
