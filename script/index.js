@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         cardDiv.appendChild(divcol);
 
         const cardCol = document.createElement("div");
-        cardCol.className = "card bg-dark border-dark";
+        cardCol.className = "card bg-dark border-dark namePokemon";
         cardCol.style = "height: 400px";
 
         const img = document.createElement("img");
@@ -65,6 +65,24 @@ document.addEventListener("DOMContentLoaded", (event) => {
     });
 });
 
+
+document.addEventListener('DOMContentLoaded', (event) => {
+  document.getElementById('searchForm').addEventListener('submit', function(e) {
+      e.preventDefault(); 
+      const searchText = document.getElementById('searchInput').value;
+      console.log(searchText);
+      const busqueda = document.getElementsByClassName('namePokemon');
+      for (let i = 0; i < busqueda.length; i++) {
+          const element = busqueda[i];
+          const name = element.getElementsByClassName('card-title')[0].textContent;
+          if (name.toLowerCase().includes(searchText.toLowerCase())) {
+              element.style.display = 'block';
+          } else {
+              element.style.display = 'none';
+          }
+      }
+  });
+});
 
 
 function showDetail(id) {
