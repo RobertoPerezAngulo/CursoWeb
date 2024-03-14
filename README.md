@@ -1,5 +1,11 @@
 # Guía de Configuración del Proyecto Django Pokemon
 
+## Link Desarrollo
+
+```bash
+https://robertoperezangulo.github.io/CursoWeb/index.html
+```
+
 Esta guía detalla las instrucciones necesarias para configurar el entorno de desarrollo de un proyecto Django. Cubre la instalación y uso de `pipenv` para la gestión de dependencias y entornos virtuales, así como la configuración de `firewalld` y `nginx` para mejorar la seguridad y el manejo de solicitudes web.
 
 ## Tabla de Contenidos
