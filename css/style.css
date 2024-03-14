@@ -98,7 +98,6 @@ iframe {
   width: 60px;
   height: 60px;
   background: #25D366;
-  box-shadow: 2px 2px 3px #999;
   z-index: 3;
   display: flex;
   flex-direction: column;
@@ -108,10 +107,6 @@ iframe {
 }
 .whatsapp-button:hover {
   cursor: pointer;
-}
-.whatsapp-button .whatsapp-link {
-  color: #fff i;
-  color-font-size: 30px;
 }
 .whatsapp-button a {
   color: #fff;
